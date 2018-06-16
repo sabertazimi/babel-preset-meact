@@ -23,6 +23,7 @@ module.exports = function buildMeactPreset(context, options) {
             }),
         ],
         plugins: [
+            require('babel-plugin-transform-object-rest-spread'),
             require('babel-plugin-transform-react-jsx'),
             require('babel-plugin-transform-meact-jsx')
         ].filter(Boolean)

@@ -5,6 +5,7 @@ A babel preset for transforming JavaScript for Meact
 Currently contains transforms:
 
 - babel-preset-env
+- babel-plugin-transform-object-rest-spread
 - babel-plugin-transform-react-jsx
 - babel-plugin-transform-meact-jsx
 
